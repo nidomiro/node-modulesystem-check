@@ -6,6 +6,6 @@
     },
 
     "dependencies": {
-        "node-modulesystem-check": "../../packages/node-modulesystem-check"
+        "@nidomiro/node-modulesystem-check": "../../packages/node-modulesystem-check"
     }
 }

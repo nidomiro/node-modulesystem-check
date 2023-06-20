@@ -1,6 +1,6 @@
 describe("commonjs", () => {
   it('should return "commonjs"', () => {
-    const { getModuleSystem } = require("node-modulesystem-check");
+    const { getModuleSystem } = require("@nidomiro/node-modulesystem-check");
 
     expect(getModuleSystem()).toBe("commonjs");
   });

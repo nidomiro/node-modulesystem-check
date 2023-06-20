@@ -1,5 +1,5 @@
 
-import { getModuleSystem } from "node-modulesystem-check";
+import { getModuleSystem } from "@nidomiro/node-modulesystem-check";
 
 describe("esm", () => {
   it('should return "esm"', () => {
