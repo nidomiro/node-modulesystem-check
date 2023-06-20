@@ -1,0 +1,11 @@
+{
+    "type": "module",
+
+    "scripts": {
+        "test": "NODE_OPTIONS=--experimental-vm-modules pnpm exec jest --config jest.config.cjs"
+    },
+
+    "dependencies": {
+        "node-modulesystem-check": "../../packages/node-modulesystem-check"
+    }
+}

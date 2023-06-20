@@ -1,0 +1,11 @@
+{
+    "type": "commonjs",
+
+    "scripts": {
+        "test": "jest --config jest.config.cjs"
+    },
+
+    "dependencies": {
+        "node-modulesystem-check": "../../packages/node-modulesystem-check"
+    }
+}
