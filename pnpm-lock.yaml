@@ -12,6 +12,8 @@ importers:
         specifier: ^29.5.0
         version: 29.5.0
 
+  packages/node-modulesystem-check: {}
+
   tests/commonjs:
     dependencies:
       node-modulesystem-check:
