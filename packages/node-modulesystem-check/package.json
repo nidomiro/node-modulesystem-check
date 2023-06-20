@@ -1,6 +1,6 @@
 {
   "name": "@nidomiro/node-modulesystem-check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "keywords": [
     "esm",
@@ -29,21 +29,20 @@
   },
   "license": "MIT",
   "type": "module",
-  "main": "./src/commonjs/index.js",
+  "main": "./commonjs/index.js",
   "exports": {
     ".": {
-      "require": "./src/commonjs/index.js",
-      "default": "./src/esm/index.js"
+      "require": "./commonjs/index.js",
+      "default": "./esm/index.js"
     }
   },
-  "module": "./src/esm/index.js",
+  "module": "./esm/index.js",
   "devDependencies": {
     "typescript": "^5.1.3"
   },
 
   "scripts": {
     "build-js": "cp -r -p package.json Readme.md src/** dist/",
-    "build": "tsc && pnpm run build-js",
-    "publish": "pnpm run build && cd dist && npm publish --access public"
+    "build": "tsc && pnpm run build-js"
   }
 }

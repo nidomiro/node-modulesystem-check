@@ -21,14 +21,14 @@ importers:
   tests/commonjs:
     dependencies:
       '@nidomiro/node-modulesystem-check':
-        specifier: ../../packages/node-modulesystem-check
-        version: link:../../packages/node-modulesystem-check
+        specifier: ../../packages/node-modulesystem-check/dist
+        version: link:../../packages/node-modulesystem-check/dist
 
   tests/esm:
     dependencies:
       '@nidomiro/node-modulesystem-check':
-        specifier: ../../packages/node-modulesystem-check
-        version: link:../../packages/node-modulesystem-check
+        specifier: ../../packages/node-modulesystem-check/dist
+        version: link:../../packages/node-modulesystem-check/dist
 
 packages:
 
