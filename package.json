@@ -11,7 +11,7 @@
     "test-commonjs": "cd tests/commonjs && pnpm test",
     "test-esm": "cd tests/esm && pnpm test",
     "test": "pnpm test-commonjs && pnpm test-esm",
-    "publish-lib": "cd packages/node-modulesystem-check && pnpm publish --access public"
+    "publish-lib": "cd packages/node-modulesystem-check && pnpm publish"
   },
 
   "devDependencies": {
