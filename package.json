@@ -8,10 +8,9 @@
   "type": "module",
 
   "scripts": {
-    "test-commonjs": "cd tests/commonjs && pnpm test",
-    "test-esm": "cd tests/esm && pnpm test",
-    "test": "pnpm test-commonjs && pnpm test-esm",
-    "publish-lib": "cd packages/node-modulesystem-check && pnpm publish"
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "publish-lib": "pnpm build && cd packages/node-modulesystem-check && pnpm publish --access public"
   },
 
   "devDependencies": {

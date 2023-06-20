@@ -6,6 +6,6 @@
     },
 
     "dependencies": {
-        "@nidomiro/node-modulesystem-check": "../../packages/node-modulesystem-check/dist"
+        "@nidomiro/node-modulesystem-check": "workspace:*"
     }
 }
