@@ -1,9 +1,32 @@
 {
-  "name": "node-modulesystem-check",
+  "name": "@nidomiro/node-modulesystem-check",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "esm",
+    "commonjs",
+    "module",
+    "exports",
+    "require",
+    "import",
+    "export",
+    "check",
+    "modulesystem",
+    "util"
+  ],
+  "author": {
+    "name": "Niclas Roßberger",
+    "url": "https://nidomiro.de"
+  },
+  "bugs": {
+    "url": "https://github.com/nidomiro/node-modulesystem-check/issues"
+  },
+  "homepage": "https://github.com/nidomiro/node-modulesystem-check/tree/main/packages/node-modulesystem-check",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nidomiro/node-modulesystem-check.git",
+    "directory": "packages/node-modulesystem-check"
+  },
   "license": "MIT",
   "type": "module",
   "main": "./src/commonjs/index.js",
@@ -14,5 +37,4 @@
     }
   },
   "module": "./src/esm/index.js"
-
 }
